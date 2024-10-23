@@ -1,0 +1,10 @@
+gevent
+opencv-python
+numpy
+SciPy
+tensorflow
+scikit-learn
+pandas
+tqdm
+Flask
+Pillow
