@@ -1158,5 +1158,5 @@ def testing():
 # main(data_folder,img_folder,feat_folder)
 
 
-if __name__ == '__main__':
-   app.run()
+# if __name__ == '__main__':
+#    app.run()
