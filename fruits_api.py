@@ -1159,4 +1159,7 @@ def testing():
 
 
 if __name__ == '__main__':
-   app.run(host='0.0.0.0',port=5000)
+    # Get the PORT from environment variables, default to 5000 if not set
+    port = int(os.environ.get('PORT', 5000))
+    # Bind to 0.0.0.0 and listen on the specified port
+    app.run(host='0.0.0.0', port=port)
