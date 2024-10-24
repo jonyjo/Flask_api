@@ -26,7 +26,11 @@ from tqdm import tqdm
 from flask import Flask, request, jsonify
 from keras.models import load_model
 from PIL import Image
+<<<<<<< HEAD
 from gevent.pywsgi import WSGIServer
+=======
+
+>>>>>>> 1252091ba12383df75caff0a2ae2cacbb605ce3b
 
 app = Flask(__name__)
 
@@ -577,6 +581,12 @@ def testing():
 
 if __name__ == '__main__':
     # Get the PORT from environment variables, default to 5000 if not set
+<<<<<<< HEAD
     port = int(os.environ.get('PORT', 5000))
     # Bind to 0.0.0.0 and listen on the specified port
     app.run(host='0.0.0.0', port=port)
+=======
+    # port = int(os.environ.get('PORT', 5000))
+    # Bind to 0.0.0.0 and listen on the specified port
+    app.run()
+>>>>>>> 1252091ba12383df75caff0a2ae2cacbb605ce3b
